@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.app{
+  background-image: url('Capture.PNG') ;
+  background-size:cover !important;
+  
+  min-height: 500px;
+  max-width:300px;
+   padding-top:30px ;
+  margin: 50px auto 0px auto;
+
+}
+
+.app.warm{
+  background-image: url('Capture1.PNG') ;
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar{
+ display: block;
+ width: 100%;
+ padding: 15px;
+ background: none;
+ border:none;
+ outline: none;
+ background-color: rgba(255 , 255 , 255 , .5);
+ border-radius: 0 0 16px 16px;
+ margin-top: -30px;
+ box-shadow: 0 5px rgba(0,0,0,.2);
+ color: #313131;
+ font-size: 20px;
+ transition: .4 ease;
+}
+.search-box .search-bar:focus{
+  background-color: rgba(255 , 255 , 255 , .75);
+}
+.location-box.location{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50 , 50 , 70 , .5);
+}
+.location-box .date{
+ color: rgb(25, 28, 201);
+ font-size: 20px;
+ font-weight: 300;
+ font-style: italic;
+ text-align: center;
+ text-shadow: 1px 1px rgba(50 , 50 , 70 , .5);
+}
+.whether-box{
+  text-align: center;
+}
+
+.whether-box .temp{
+ position: relative;
+ display: inline-block;
+ margin: 30px auto;
+ padding: 15px 25px;
+ color: rgb(28, 12, 99);
+ font-size: 52px;
+ font-weight: 900;
+ text-shadow: 3px 3px rgba(50 , 50 , 70 , .5);
+ text-align: center;
+}
+
+.whether-box .whether{
+ color: #fff;
+ font-size:48px ;
+ font-weight: 700;
+ text-shadow: 3px 3px rgba(50 , 50 , 70 , .5);
+}

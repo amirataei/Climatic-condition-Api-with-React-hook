@@ -1,0 +1,5 @@
+body{
+  direction: ltr;
+  list-style: none;
+  flex-direction: column;
+}
